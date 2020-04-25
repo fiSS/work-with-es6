@@ -16,12 +16,12 @@ class Options {
  ```javascript
         newDiv.textContent = `${text}`;
  ```
-### и при пощи cssText изменяет стили из переданных параметров.
+### и при пощи cssText изменяет стили.
 ```javascript
         newDiv.style.cssText = properties;
          } 
  ```         
-### изменяет стиль из переданных параметров.
+### из переданных параметров.
 ```javascript
         let properties = `height:${this.height}px; width:${this.width}px; background-color:${this.bg}; font-size:${this.fontSize}px;
          text-align:${this.textAlign}; padding:${this.pad}px; margin:${this.marg}px`;
